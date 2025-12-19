@@ -1,0 +1,394 @@
+{
+  "5d5a70a2d78879834db3583f8d275582ece06eae78db0d400dda5a08957c6074": {
+    "wallet_address": "112233445566",
+    "ipv4": "10.66.66.2/32",
+    "ipv6": "fd42:42:42::2/128",
+    "public_key": "KrRaY4Qh5LPa0srRBaIhTHzAclfGDzl/GwzZYAths2E=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.2/32,fd42:42:42::2/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "36b5acf73e11a271e8c5dcba4ac74cc9f00366a781e88be0d496eba70df1642c": {
+    "wallet_address": "VNAVG345N5GT2C2HIKWADH4T2V7ELI35U2VMT5WUKABF53HYY6637OAS3E",
+    "ipv4": "10.66.66.3/32",
+    "ipv6": "fd42:42:42::3/128",
+    "public_key": "PxO54L4sCFLmhb6gVu8SprWJu0WqSXWqPcbiQ/zKwW4=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.3/32,fd42:42:42::3/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "c3a74c85a271bea5c6d231a62137fd17583d7bfa25d53b0bef12cbaa65b1a263": {
+    "wallet_address": "EW36ALQDRDAZS4R22DWMVYV3PGPZIYXPON3PTRLA5ZMKSHSVKEGWNIYYRQ",
+    "ipv4": "10.66.66.4/32",
+    "ipv6": "fd42:42:42::4/128",
+    "public_key": "rhFZj7OFOaeqvVehJc0/2WiQW6ERVuH61tDuy1LOUBI=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.4/32,fd42:42:42::4/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "01d00725e2d6beb371090dd89e9cadc11f6d2ebf78ee9dd01b15c90cd41b8d8b": {
+    "wallet_address": "7EVAEIHAN57BMBMM6N7GQ6IBAI32MSVYE676VYWBVNKNUDKECQAVPEFQDM",
+    "ipv4": "10.66.66.5/32",
+    "ipv6": "fd42:42:42::5/128",
+    "public_key": "sfc+itgDZZMGjtm0kUHWwUkXYpO/holh0twJXOAf6SU=",
+    "conf": "[Interface]\nPrivateKey = +F2GlhY8IwPPI9WxtCxjdPvoAIDZ9rHD/Hsz7X4j4F4=\nAddress = 10.66.66.5/32,fd42:42:42::5/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "bd388a407bb2da3d254f91b94f7dee43b0b96aac95734a06e90849eca09c5f5b": {
+    "wallet_address": "PPCFPXSQ7FU35BP5N3YTIQA7BXODHCQCJ63HVESCLXG6IQBVNAEZC3O45Y",
+    "ipv4": "10.66.66.6/32",
+    "ipv6": "fd42:42:42::6/128",
+    "public_key": "lW1a0jf2pdTZNGHG5P6j/TcVBOII4Qh6QezPP3951Wk=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.6/32,fd42:42:42::6/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "fd2f20a2e88b0be8bd27b8e9b821a0965ea0a48a5913c2879128385e707f7d02": {
+    "wallet_address": "RSNSKM3AS6ZPMBKEN472DUKMPHRSFGE4ABYOXNONNVLCNNZ6PB3C4CWE24",
+    "ipv4": "10.66.66.7/32",
+    "ipv6": "fd42:42:42::7/128",
+    "public_key": "rl2GoXyvSAIaOU617HFPbl/jHBAuN8h1L2lptiuv1Fc=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.7/32,fd42:42:42::7/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "783cea0443fe13425582f7c014a43f129434e829b5501b6b83cec94de1b4c941": {
+    "wallet_address": "U72EDLJTXOFCKKBHUZL2F3MWKEE56PKSU5K4Z3YCLEGQ2IYX4WBZNFQF3E",
+    "ipv4": "10.66.66.8/32",
+    "ipv6": "fd42:42:42::8/128",
+    "public_key": "+izStHMiP+GLEKkXdIcUCcoM7IQeKtMYqYEr+m7j/Ts=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.8/32,fd42:42:42::8/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "626f6f224b014a811ac99e2afa96d2a8accf305052a874fa70f2b2c220bbf0ca": {
+    "wallet_address": "ELVGNTM53KO6Q5GKCGIL3ZKS4OVZT5BE3HPYPBCTW7MFCFL2YL7MO2H2PQ",
+    "ipv4": "10.66.66.9/32",
+    "ipv6": "fd42:42:42::9/128",
+    "public_key": "V733RUu7Cx+Y9KVIeyQb5XzHtiPKaaWphjfLwwZYbB4=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.9/32,fd42:42:42::9/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "aaead627ef3f66d148d80b6428763fa2e8a0560466c5d5219400778dc295ec8b": {
+    "wallet_address": "ZH2X73GZ6EGWFW2IN4VJ6CJJJVPRINCC27HMRNGV4XSRAQQRTQF5UOPWOI",
+    "ipv4": "10.66.66.10/32",
+    "ipv6": "fd42:42:42::10/128",
+    "public_key": "kuvkfEbV0+eV8jR0rZMuflvpjHHFf9J7YdzSk4QqjDQ=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.10/32,fd42:42:42::10/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "34efa337e426f852ffbcf06eea25fa0c8e8ed1281fee86f0eac69f9cc7daab1f": {
+    "wallet_address": "72RKZZ2Z6IQNULA3BPAFVOKQ5QAUNRL4JZMTWQVYZETG5HCPRTKJE4FEVY",
+    "ipv4": "10.66.66.11/32",
+    "ipv6": "fd42:42:42::11/128",
+    "public_key": "LhrgjDlHd6ER5eFJlTfNGrBM+MgYVQJriuTS/k5UBT0=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.11/32,fd42:42:42::11/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "4571441d60e8933da610b71aecb0a9e5e52cee56e65ed72681f2845825ffdf2c": {
+    "wallet_address": "L6YCATEMKMXAL6PGSIBJKIOKPLVNWBVDK27UYU66VSKMMUAXYDCR3KFGNA",
+    "ipv4": "10.66.66.12/32",
+    "ipv6": "fd42:42:42::12/128",
+    "public_key": "zN9br/ovpm8d/cB1S5HeCKChz5NPqVYe1JZaW/VkKCU=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.12/32,fd42:42:42::12/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "65d32a9036c876ccecb4c9e73d721cd302305bd0a2a8217f145434e099b6f65c": {
+    "wallet_address": "ZUG5Q7R5AMDWAJVVK65UUEZNIRN47YNIGE4DCBVYQJFD2PZ2QHMYG3XK6U",
+    "ipv4": "10.66.66.13/32",
+    "ipv6": "fd42:42:42::13/128",
+    "public_key": "4LdYDgp0lVVQyNu0TfKCZj6Djbmw2ESqRjdyV3j5OWI=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.13/32,fd42:42:42::13/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "d2ee9c1c8e0617d17d516697c35e4714e8c0214b3edf9d1a8527419d44c34ddb": {
+    "wallet_address": "GGAGEVBQF4SOQNM3OGIGPDQIPYVPSHDO3CNHOG5LH4CAW574KC7CM4RI6A",
+    "ipv4": "10.66.66.14/32",
+    "ipv6": "fd42:42:42::14/128",
+    "public_key": "UJvUqkdjt/TfMA62c6YW/FATm0lJi8tSUa45c6ylFXY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.14/32,fd42:42:42::14/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "bd61a4d96f21366530442d02be1b105ce732e0895191d799bf6a4ea2d18ab2c9": {
+    "wallet_address": "D3DRCFEBFHH2VFHTB54E6BUHQXFDUXXOUK3IXR64M3DRQU5TVM6LVZV66Q",
+    "ipv4": "10.66.66.15/32",
+    "ipv6": "fd42:42:42::15/128",
+    "public_key": "fR18uBvd96U1Yu2sd51fpd8eN7i7OfWV0G41pGBZ0x0=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.15/32,fd42:42:42::15/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "e3c723d8e96940cc27690652051eee4118f0f861b0a5e00e1c321d7ef710994f": {
+    "wallet_address": "DHQTOGRIICZXFHDDVS64B3O7KDXKCO7HGDIQ6YN32EQQUW4YXIYHYPGJTY",
+    "ipv4": "10.66.66.16/32",
+    "ipv6": "fd42:42:42::16/128",
+    "public_key": "57FYCvr7se6Qh+VZJ7/eDwKvnPnttgDQukDcWtnll2s=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.16/32,fd42:42:42::16/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "e20c622cc637fc0bafde2f4b3deef2670f3881e5fc850f38c66f42f63f280af5": {
+    "wallet_address": "KG23CSAZHL3WPPCMOGHZMPMLYLP3FBNQ45R4Z6CDI2LFL4GPFZTZFFHLCE",
+    "ipv4": "10.66.66.17/32",
+    "ipv6": "fd42:42:42::17/128",
+    "public_key": "CBWpcaa27oCgVoOHAT55rEFvOrjBtd1cAxKClRiO9jI=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.17/32,fd42:42:42::17/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "7ad6357984b4b50a697d02577fd07a36094095b79df340715aba9c7974154200": {
+    "wallet_address": "LUGT7PMMZOBBG2LIJV5CM3K3NGEZJSFFS3MDJDU4RHLGNPMDWT6AWOIPLI",
+    "ipv4": "10.66.66.18/32",
+    "ipv6": "fd42:42:42::18/128",
+    "public_key": "QBNFiaALRtaJ7eeo1AhK6/IwxQAJNP/fPtJHLksu5mY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.18/32,fd42:42:42::18/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "443397092bf322ce9e496440591511e158f5dce5ebddef9b92996a1d70a23b2b": {
+    "wallet_address": "DNZ4ROMODMD53GXTRN2NQ67BAGBAUUOT4YJZMH5NOC2QADXNSWMF5DG3UM",
+    "ipv4": "10.66.66.19/32",
+    "ipv6": "fd42:42:42::19/128",
+    "public_key": "LZQKcsTkVnceTwB6XF54WPyQljhLq1/vs5gzyFkMUiE=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.19/32,fd42:42:42::19/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "7683980806021cd1adbb6b35da324b3007d27fce23c1a6a715e9a781f57f143f": {
+    "wallet_address": "ELSDDCGZFNA6NIE5RH43RKNRFAAIHI3V354ZT5LZTGIXFRF6XTCXZI3NS4",
+    "ipv4": "10.66.66.20/32",
+    "ipv6": "fd42:42:42::20/128",
+    "public_key": "b5R/xwOZejHOWoW8MvQisSbZlOFBqvw/LqL9OA1YLgA=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.20/32,fd42:42:42::20/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "f124f72568a2ff4d2e72cab4c66041d07233dedc1c75ef350cc517abd48ad0ec": {
+    "wallet_address": "6X7LDRWYNML5ZGH2SPHNDUYHS6QODMTBAERM7ASZDPUYKA4OX4YAMXB42I",
+    "ipv4": "10.66.66.21/32",
+    "ipv6": "fd42:42:42::21/128",
+    "public_key": "4eH9CfCnK4qDJF1oETOqQyTTHiVROdiXE6LroAxt53U=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.21/32,fd42:42:42::21/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "4973edca10277033c732f7823bec24f36f608407a3c68b783147f68994e27993": {
+    "wallet_address": "22MVMH6RC6WP5A45GSFDCOFYM2W7W7UDPVM3I67XNGFGMK7JAPQE6OMZZY",
+    "ipv4": "10.66.66.22/32",
+    "ipv6": "fd42:42:42::22/128",
+    "public_key": "sD26Deu8PLfdoaLrcc03AEKVX6f/OIBpiwNMpT2+kE8=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.22/32,fd42:42:42::22/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "491f097339ca0c11faffd0ffac840a8dc65ef9b2ff693ebb328d717cf483faad": {
+    "wallet_address": "FUIZY3XQ3SWQDBKJ5BUWEKYRN4EIBYKNFD5L2H55G2VZJI4LRGVU7JM26E",
+    "ipv4": "10.66.66.23/32",
+    "ipv6": "fd42:42:42::23/128",
+    "public_key": "7Y++JUKw0+qi4Qth5EiOGZFrFUo7J7s1dmQS90Jvq1U=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.23/32,fd42:42:42::23/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "ef896ae2c9595c9d4c127848857499ea2a3e511bfba7ea04ea52a510d3ecf73c": {
+    "wallet_address": "3XIIFG2CBLO53FY4VAV4RX6KGJIL32DTQYGPE3MX5E5JUF6ZFVJGPS6EVM",
+    "ipv4": "10.66.66.24/32",
+    "ipv6": "fd42:42:42::24/128",
+    "public_key": "TpGcdN1vkUGX1EowUBbmP3mu3mm30GHtbHU8MLFQ+lE=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.24/32,fd42:42:42::24/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "759b196fd75322d525a76e9f380b3fb2847fc5513d32c30499f8cbceb439496c": {
+    "wallet_address": "RZIMZVRNX4XJ37Y62DX3MNUEG7JQ3S2EHTCMXIZFRNOU6JSTSRXJQOUDL4",
+    "ipv4": "10.66.66.25/32",
+    "ipv6": "fd42:42:42::25/128",
+    "public_key": "ffMycI6x84fFM7D2D4KRO1KzJM9jSlgOzTF6rs7iMhw=",
+    "conf": "[Interface]\nPrivateKey = +HFILRMW/LUn96/DsVbHKo34ia15/bM8BgXi37BKgEQ=\nAddress = 10.66.66.25/32,fd42:42:42::25/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "11003be77eb9e53d3935d7d57b93b7097395ee9fbf5e38e9f9edf4508a77a9f6": {
+    "wallet_address": "SQ5L3FEKXLEVQ5GSCVJM4KM2XHGJNHWVMAAPSHYGZOS6FCL4MCYGSKHLLY",
+    "ipv4": "10.66.66.26/32",
+    "ipv6": "fd42:42:42::26/128",
+    "public_key": "TdabgJhp/kHiKKYhq0UL+bFJUDhWDRKy9e6rWPbdmHg=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.26/32,fd42:42:42::26/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "f4358e6c6309fb2dee8b9e00219e529f46a4203734df4d0e0a3aaf895d06e02e": {
+    "wallet_address": "BRCLB7AFPA7YSY7TJUUL27J5W6I6ZM3F566FBGD3WCDFDXJG46C4MIMSCU",
+    "ipv4": "10.66.66.27/32",
+    "ipv6": "fd42:42:42::27/128",
+    "public_key": "SlsEFsr0o7Dijo3dT+YPZo57plN4gt+POtR/cLB6KGs=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.27/32,fd42:42:42::27/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "927588ae1e3257a31f51cfee12e713db0290f82a82ee86137e2ad1c2cef79993": {
+    "wallet_address": "7CAPP5UETKXVZ4DU4GLDNNAJEB44WCPRFP5XJOZHCJBWD2VME2E2QB6S54",
+    "ipv4": "10.66.66.28/32",
+    "ipv6": "fd42:42:42::28/128",
+    "public_key": "9Ts7aM/kR2ALEIrqfLoIzobr2lCzLCJt4r378n+cbDQ=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.28/32,fd42:42:42::28/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = lWR2sAO0ubBeUGF4Fuw4glctDYLarCH24Zyg/1UpLPo=\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "646b2d67ff43dc0b8023519f05249123841ee2e6d4f465932fa7f6c9016c3b85": {
+    "wallet_address": "XRSTPS4BKXM3MKIM4YI6VKHWO4WQQAHILIGCXQYZVD357EKLRGH5UIGRX4",
+    "ipv4": "10.66.66.29/32",
+    "ipv6": "fd42:42:42::29/128",
+    "public_key": "mVcL+/Ay1si9O/OewgJrpIAmkQks3Ed2FtVli24LKCE=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.29/32,fd42:42:42::29/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "4fc92c5d1e74d159b9fccf2a6d34c9f76a27d6e02f9c68a7d359bea35630655a": {
+    "wallet_address": "DSI2KRWOLOLDRNY4OZMZAMJDUX7SYMP4LEJDQD64INFFQHOZYXQF6J7RA4",
+    "ipv4": "10.66.66.30/32",
+    "ipv6": "fd42:42:42::30/128",
+    "public_key": "dvFXsOnttq0xfcB5q3xpnV1Mj+Raz1Rmn95no15jj0s=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.30/32,fd42:42:42::30/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "1510afcb08f118441c93459e39361456f8cd4138a04725c1f536be267cce4669": {
+    "wallet_address": "VQDWBUBTZ36KOZX3CBB2ZV6RB7KQ5ALHVLFIP4S2ZI6XYV4MEOGLGBAXJQ",
+    "ipv4": "10.66.66.31/32",
+    "ipv6": "fd42:42:42::31/128",
+    "public_key": "1LMrnbMElfJqFK2B8UkGLmbZ5ekN5n4bS+6RVDcOZhI=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.31/32,fd42:42:42::31/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "bdc371e6d7195559c600758b5befae68f7892ab892b25999a25258b27135c363": {
+    "wallet_address": "52XOWGEW3Y2WQHXAEIM7FBGZ2H7QMVPPSAOTWF5OXE6UJWYLDWXUXS5KW4",
+    "ipv4": "10.66.66.32/32",
+    "ipv6": "fd42:42:42::32/128",
+    "public_key": "u5UlgGwAu/d0F7PSVT4YEFvxJL0lg1kjJGcF8YA0b2s=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.32/32,fd42:42:42::32/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "f8bda4a45e9babc5a60a6c8b670663e15e7ca4040a8b1bc85642573a7c3e20e4": {
+    "wallet_address": "EGMTZ237E2VFSXYJG63MCVXXLORDLVSHQDJ3BO3TNABG5MV2ZFLZ64KPQ4",
+    "ipv4": "10.66.66.33/32",
+    "ipv6": "fd42:42:42::33/128",
+    "public_key": "1h7cZQb1ZJlVIb3qvaWH10vo20jgLoCKFkfbmwXVxxY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.33/32,fd42:42:42::33/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "44b724203155851ff11bdad85e6b5e7d1491de41ab7c170ef6067f68aba10ba2": {
+    "wallet_address": "P5WW3F7SNMYO4QOPMDXYH3T4ABJBEXHCIR2HGCM4P4ABEJI5YXKGQYTC4E",
+    "ipv4": "10.66.66.34/32",
+    "ipv6": "fd42:42:42::34/128",
+    "public_key": "a65oj+w3WmkEKnGvCRv4sh3qlASRxf445bL7xLuWuUw=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.34/32,fd42:42:42::34/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "25c53a32648a42fc4b6ad9020931fdf91ac243c09dcbb53a69b5259dc25b82bc": {
+    "wallet_address": "O666QK4BNRDGUHMYN2XV3DGJKHZJMMKB7TPDODSC7KF7IUTVD5HVWCH6HY",
+    "ipv4": "10.66.66.35/32",
+    "ipv6": "fd42:42:42::35/128",
+    "public_key": "J4CSOkMhrWL0ByvXELVtj7HdBsUwpSWKoDArax5hajc=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.35/32,fd42:42:42::35/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "475e046cdd06573a02221f934264813c10f35431c26b87657466fe5b8907d876": {
+    "wallet_address": "YMJXPNCKVFGKPYNSY2YPB4FP37ND2HMPNHKG27T64DVOS4EYTUGFSPIGO4",
+    "ipv4": "10.66.66.36/32",
+    "ipv6": "fd42:42:42::36/128",
+    "public_key": "ln3sSvhnfix8RQM4HyAHIPYwVmYUXyxMtclPslRLbBo=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.36/32,fd42:42:42::36/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "6873067a50f84ee5603c17be9eaef1a8c3d3bc4c7d76a09872f75d21a7772e1d": {
+    "wallet_address": "IXFZ67N76XLB3IDO7RHNXAKA2VS7ZVDUI5XN3P7WLV4CCS4JWELY5KZE44",
+    "ipv4": "10.66.66.37/32",
+    "ipv6": "fd42:42:42::37/128",
+    "public_key": "PSDdxuyzVmEIsPG4PaS4m1RfdVTkHRiFvyNWf2ADRSY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.37/32,fd42:42:42::37/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "329e3730e803e3c25397a8556fe3f8555b91e19f18cecfddabeb84eb6816ae1e": {
+    "wallet_address": "GIGUBDWP7J2UCTIN722NROJCNS34XRAHP6WCOWS7RB5BJP2HFNTR6YQA7Q",
+    "ipv4": "10.66.66.38/32",
+    "ipv6": "fd42:42:42::38/128",
+    "public_key": "pxMCp4Hm6O5Xog0fWy5O5CyqHT7rdSdAiIIThoZLGRU=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.38/32,fd42:42:42::38/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "046acabe7df6b518e270fa9f4111a1c26ced69ba247af15c38c49dd5d15290b5": {
+    "wallet_address": "4LJOHFSNN57UGLQXQH5YCPJ7CW5DUTBEJWZHTKR5BQLLVLNZKMFJC2OIYM",
+    "ipv4": "10.66.66.39/32",
+    "ipv6": "fd42:42:42::39/128",
+    "public_key": "ZWtvincxMg4dZ2VSOiZh3tGtBDtjTPJXQdRAfbKTnDY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.39/32,fd42:42:42::39/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "707ee899cdddaf08b001f8ade1ecbbc02a13713344ee2edcdb1c0c83cbf4df36": {
+    "wallet_address": "NDVHC2KJUPTYBC2UIGVDWNLHDM5X54NY6MB4WXEZLL5WR4EITRQJ4643WY",
+    "ipv4": "10.66.66.40/32",
+    "ipv6": "fd42:42:42::40/128",
+    "public_key": "yWcWYNy/XBChh8ql1WYGamAPx7S9OuqA6fzeb/D7tnM=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.40/32,fd42:42:42::40/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "b50889cb2d830edda7c886f2cc305039a0f53d6dce53ae7f4620f1cce2d8b6db": {
+    "wallet_address": "U7TB2TLFGPAHFANNPHPYSLNQBCVPDKD5QA37HME5EMALMXSDUVXGWU7ITE",
+    "ipv4": "10.66.66.41/32",
+    "ipv6": "fd42:42:42::41/128",
+    "public_key": "P3F4VN5iO9O4FajSqXvNH7A8ZKl67yQCpqPRhcaCzxY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.41/32,fd42:42:42::41/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "160f1925e94fc5e1fd3a4690521e953e74565c9e28cd78eb15ef7133ed4a6575": {
+    "wallet_address": "XG6I5S35UPOXKCJ47MUTCOIXJWSAX4TBXQXBPFBS47RENMQ5LIVQUYYJ5M",
+    "ipv4": "10.66.66.42/32",
+    "ipv6": "fd42:42:42::42/128",
+    "public_key": "lIFvEtq5Xe5i5w+KjtaFLNQzum5EBbgibod2u60bEV8=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.42/32,fd42:42:42::42/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "42df5f690a7e8646a02b80ecbb336d173ab01558694cb86112edf9c767a7de4c": {
+    "wallet_address": "FOMZDI55UARCVRK65Q2IWII3HZRSQQ7MDZZDM3YV3A6KKUPQLLVJNBOSF4",
+    "ipv4": "10.66.66.43/32",
+    "ipv6": "fd42:42:42::43/128",
+    "public_key": "sPD/iK8/wx4TUlU+93rK4siZc9Gj9Ni/yFs6My1XsRw=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.43/32,fd42:42:42::43/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "5e64afeed034b2e98d376256596dc413dea7a5e5d8875b83f3e6e51449ab580d": {
+    "wallet_address": "ASECNWPTP3GTOTCY45ONSRRSDOF5D4OCF55KKP2LLCBKIG5Q3LXHZWUDSY",
+    "ipv4": "10.66.66.44/32",
+    "ipv6": "fd42:42:42::44/128",
+    "public_key": "4+3bYe/ui5NuJVrb+txtNgrw/LJ7jE39Gtel1vdBYzc=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.44/32,fd42:42:42::44/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "d9173e9f49af7576028b68963bb1ff74dcd51d2343c4d97de2b71bc7fef40605": {
+    "wallet_address": "VDEIX53OBIJLHNEE5VYO5TSHNXYLSDOJM4WHGEEZAKHPDGE5A3OMEW2Z6M",
+    "ipv4": "10.66.66.45/32",
+    "ipv6": "fd42:42:42::45/128",
+    "public_key": "4mZQZVyQ2D6mZXJedaLCIbry+RNYqpGvGNI97QBnhRo=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.45/32,fd42:42:42::45/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "e080e6347e41f8c8b885cdb70aad63dc992223b502a457986ec5887c085f2e66": {
+    "wallet_address": "JBE3IA2OMDZIZTBY7JFJ7BL2K5OREPYWFVV4VPSTQVNRZ5HJR464CBP2NE",
+    "ipv4": "10.66.66.46/32",
+    "ipv6": "fd42:42:42::46/128",
+    "public_key": "UV/FU1jblTH0NUTFvK3xnZqZ33XO0TTxve6ySPtUPiY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.46/32,fd42:42:42::46/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "0a98ce36c103565ca57206404322e0bcf9aa00e07658ad443146821e43d8ce79": {
+    "wallet_address": "ZYEFGFHKFOHTQWC3ETRHEA4UL3WHZQSIPPE6YXVMMV7S3IKBWAWNGVTN4E",
+    "ipv4": "10.66.66.47/32",
+    "ipv6": "fd42:42:42::47/128",
+    "public_key": "6BNvakMu80Up-KwkWqkj_-v0DsdhWAK5jXX4JfBgpWI=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.47/32,fd42:42:42::47/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "e36824677874d2a57e6cce8902f3957ea47b26f1ef2071a826f4b52c98380ffd": {
+    "wallet_address": "XX7PEE7AKVFR2BQ2FW6H22YMCOHLMOOQMKPE77JG6WFUA34DCQZBATA34U",
+    "ipv4": "10.66.66.48/32",
+    "ipv6": "fd42:42:42::48/128",
+    "public_key": "LNretsaXpWY9lbuYjImX3zesmFo58kE1Iqh_x_hrW2Y=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.48/32,fd42:42:42::48/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "9a0ec18b1358f815dfa55aeafdcd5e0ca9010606e856b64b3d98ffb80afbdf02": {
+    "wallet_address": "DIQKEEX6OWGZDMRVDTRUECGI6JS6SCBHMVPQR4YCFSSR4N4SUSXBCOFT74",
+    "ipv4": "10.66.66.49/32",
+    "ipv6": "fd42:42:42::49/128",
+    "public_key": "DZI4VWr5yOm4_TioHrom1YAGx2kqDFEhkWqZEjD2z0Y=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.49/32,fd42:42:42::49/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "7cc7a8a19693b0f5c9f8b0f8b3a40810125c5795462dd9e0a04af7087d014525": {
+    "wallet_address": "unknown-wallet",
+    "ipv4": "10.66.66.50/32",
+    "ipv6": "fd42:42:42::50/128",
+    "public_key": "Af_k3Lus-aYqGPMG7TmSVYy7rl2rzHOtFU1evP3-hXY=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.50/32,fd42:42:42::50/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "504e5b6121a140b51b6a52693ee37394931bfe8d5141ccabd3abe46ccb8c1f7c": {
+    "wallet_address": "GNVI3QBCMBFKQCETD5GWCZZJVMZFYCIMI4LW34QOPYTY4JKYRDLX6OLUIE",
+    "ipv4": "10.66.66.51/32",
+    "ipv6": "fd42:42:42::51/128",
+    "public_key": "eT1aRA1ea19Op5O7Kwzyn3oKOFkp8zwcmLAVG2b18AE=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.51/32,fd42:42:42::51/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "a71f2da646ca5935ff92d09450be56f42ca17a54a26ed55f6373f142cd51d386": {
+    "wallet_address": "QUGKZSCU2HAEMFDQKF4ZED2WYOGUL5GSWPWQ3USGUXCETI36ZFWIMSZXP4",
+    "ipv4": "10.66.66.52/32",
+    "ipv6": "fd42:42:42::52/128",
+    "public_key": "XPYWo_DOZdVHlO5xkLxetwFTDHDMBBNLGUFgZm190xc=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.52/32,fd42:42:42::52/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "4191e4a030f46712a59a54cf53100c5e8f4f3969b134c0a358b70a92e9969874": {
+    "wallet_address": "VZWM4DNEBDRFMDFMWUSVEV44VNZQVPKGPYWVYUWPDDNRLANIK3BTUM7AVA",
+    "ipv4": "10.66.66.53/32",
+    "ipv6": "fd42:42:42::53/128",
+    "public_key": "H8PWcutaLD-S2ClUH8G5I916V_Fw5dnR4XMIZPkyORA=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.53/32,fd42:42:42::53/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "a436ce0243b89087fca6904114ca40289023bd9a50e1513e2faf3d69339c7dfe": {
+    "wallet_address": "AMR6B7OOOAN33ZFZC6HS6LZMQZPQ7YBC4LK2HAFA2SXDMIFT6E7MVSF4GU",
+    "ipv4": "10.66.66.54/32",
+    "ipv6": "fd42:42:42::54/128",
+    "public_key": "WM_ou_2n-MCnjl5tfxO1LI-jzft6wrU0h2SmdR1DCAM=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.54/32,fd42:42:42::54/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "9fa79108f201f52e15b6b213249bd4f165450975dac34a20b909fb6e3cb3a72f": {
+    "wallet_address": "WKIGXKUO2XXL5FI3S2DKLVNRUZ3PUKWKMFGPNIITCMADTLUULGOX2KBJJE",
+    "ipv4": "10.66.66.55/32",
+    "ipv6": "fd42:42:42::55/128",
+    "public_key": "ip_PpO7jLaKPincbnBtOVoXq1EdmE0NvhShC_zovUD8=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.55/32,fd42:42:42::55/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "8577c0c1fee7708c54dbbf02b682daa60ab8e1bfad0b8a1f08fe9d498c75076c": {
+    "wallet_address": "AD7AQX55XIYSMYXEYL5XRVHLF4EHZDANINEUYL42DUBJQJRBMKOSS4DOQA",
+    "ipv4": "10.66.66.56/32",
+    "ipv6": "fd42:42:42::56/128",
+    "public_key": "2Ut78uthJweX0BJLto8kRVnm0iSzmx6P6RMm2XRlpBc=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.56/32,fd42:42:42::56/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  },
+  "82851a690727509a9c17540d8b09dae0adc1abe2707483395868b108d270d18b": {
+    "wallet_address": "OJJIZICLINTP6NWJSXX6TOIM7RCRKSIDYJBOA3BYBKWRDX7TIMTTJAF7LQ",
+    "ipv4": "10.66.66.57/32",
+    "ipv6": "fd42:42:42::57/128",
+    "public_key": "F7uvoppIC7xFQWF9JitZ6fvEuvxFFJirDLJCormUqXg=",
+    "conf": "[Interface]\nPrivateKey = REDACTED_ROTATE_ME\nAddress = 10.66.66.57/32,fd42:42:42::57/128\nDNS = 8.8.8.8,1.1.1.1,2001:4860:4860::8888,2606:4700:4700::1111\n\n[Peer]\nPublicKey = 47uIyx2/jnb56lSpgY+mOGCZudmbjEDb7N8YU+TviVk=\nPresharedKey = REDACTED_ROTATE_ME\nEndpoint = 54.211.138.164:54331\nAllowedIPs = 0.0.0.0/0,::0/0\n"
+  }
+}
