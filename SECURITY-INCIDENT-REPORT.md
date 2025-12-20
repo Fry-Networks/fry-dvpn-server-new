@@ -201,6 +201,94 @@ The dVPN server codebase does not contain direct attack code. However, the infra
 
 ---
 
+## Implemented Security Fixes
+
+The following security measures have been implemented in this PR:
+
+### 1. API Authentication (main.py)
+
+All API endpoints now require Bearer token authentication:
+```bash
+# Set environment variable before starting server
+export DVPN_API_TOKEN="your-secure-token-here"
+
+# API calls now require Authorization header
+curl -H "Authorization: Bearer $DVPN_API_TOKEN" http://localhost:8000/create-peer
+```
+
+### 2. Rate Limiting (main.py)
+
+- **10 requests per hour** per IP address (configurable via `RATE_LIMIT_REQUESTS`)
+- **Maximum 5 peers per IP** to prevent mass provisioning
+- Returns HTTP 429 when limits exceeded
+
+### 3. IP Blocking (main.py + blocked_ips.json)
+
+- Malicious IPs hardcoded in application: `137.59.147.2`, `175.107.227.133`
+- Additional IPs can be added via `/admin/block-ip` endpoint
+- Blocked IPs stored in `blocked_ips.json`
+
+### 4. Secure wgrest Token (start-wgrest.sh)
+
+- Token now loaded from `WGREST_AUTH_TOKEN` environment variable
+- Script refuses to start with weak "secret" token
+- Auto-generates secure token if not provided
+
+### 5. Abuse Detection Script (scripts/detect-abuse.py)
+
+- Analyzes peer connections for suspicious patterns
+- Alerts when single IP has many VPN connections
+- Identifies high-traffic peers
+- Can be run via cron for continuous monitoring
+
+### 6. Firewall Script (scripts/block-malicious-ips.sh)
+
+- Adds iptables rules to block identified attack sources
+- Includes instructions for persistence across reboots
+
+### 7. Admin Endpoints
+
+New authenticated admin endpoints:
+- `POST /admin/block-ip?ip=x.x.x.x` - Block an IP
+- `POST /admin/unblock-ip?ip=x.x.x.x` - Unblock an IP
+- `GET /admin/blocked-ips` - List blocked IPs
+- `GET /admin/security-status` - View security configuration
+
+---
+
+## Post-Deployment Checklist
+
+After merging this PR, complete these steps:
+
+1. **Generate secure tokens:**
+   ```bash
+   export DVPN_API_TOKEN=$(openssl rand -base64 32)
+   export WGREST_AUTH_TOKEN=$(openssl rand -base64 32)
+   ```
+
+2. **Run firewall blocking script:**
+   ```bash
+   sudo ./scripts/block-malicious-ips.sh
+   ```
+
+3. **Delete all existing peers (they may be compromised):**
+   ```bash
+   curl -X DELETE -H "Authorization: Bearer $DVPN_API_TOKEN" \
+     http://localhost:8000/peers/delete-all
+   ```
+
+4. **Restart services with new configuration**
+
+5. **Set up abuse detection cron job:**
+   ```bash
+   # Add to crontab -e
+   0 * * * * /path/to/scripts/detect-abuse.py >> /var/log/dvpn-abuse.log 2>&1
+   ```
+
+6. **Respond to hosting provider** with action plan
+
+---
+
 ## Appendix: Key Files with Sensitive Data
 
 The following files contain private keys and should be rotated or deleted:
