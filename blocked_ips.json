@@ -1,0 +1,8 @@
+{
+  "blocked_ips": [
+    "137.59.147.2",
+    "175.107.227.133"
+  ],
+  "updated": "2025-12-20T00:00:00+00:00",
+  "reason": "Identified as attack sources from abuse complaint investigation. These IPs had 76 VPN connections from only 2 sources (botnet pattern)."
+}
