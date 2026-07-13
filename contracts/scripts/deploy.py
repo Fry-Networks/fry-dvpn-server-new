@@ -35,7 +35,7 @@ def _deployer(algorand: AlgorandClient, network: str):
     mnem = os.environ.get("DEPLOYER_MNEMONIC")
     if not mnem:
         raise SystemExit("DEPLOYER_MNEMONIC required for non-localnet deploy")
-    return algorand.account.from_mnemonic(mnem)
+    return algorand.account.from_mnemonic(mnemonic=mnem)
 
 
 def main() -> None:
@@ -44,9 +44,9 @@ def main() -> None:
     if network == "mainnet":
         if os.environ.get("DVPN_CONFIRM_MAINNET") != "yes":
             raise SystemExit("refusing mainnet deploy without DVPN_CONFIRM_MAINNET=yes")
-        algorand = AlgorandClient.main_net()
+        algorand = AlgorandClient.mainnet()
     elif network == "testnet":
-        algorand = AlgorandClient.test_net()
+        algorand = AlgorandClient.testnet()
     else:
         algorand = AlgorandClient.default_localnet()
 
