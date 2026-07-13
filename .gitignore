@@ -1,0 +1,53 @@
+# === Secrets & keys (NEVER commit) ===
+*.key
+*_private.key
+*_preshared.key
+wg-keys/
+node-identity/
+*.mnemonic
+.env
+.env.*
+!.env.example
+
+# === Runtime state (regenerated at runtime) ===
+ip_pool.json
+peer_usage_log.json
+blocked_ips.json
+nohup.out
+v1/
+peers/
+*.log
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# === AlgoKit / PuyaPy build artifacts ===
+contracts/**/artifacts/
+contracts/**/.algokit/
+contracts/smart_contracts/artifacts/
+*.approval.teal
+*.clear.teal
+*.arc32.json
+*.arc56.json
+
+# === Go ===
+node/bin/
+node/*.exe
+/frynode
+/frynode.exe
+
+# === Rust / FEM integration ===
+fem-integration/target/
+target/
+
+# === OS / editor ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
