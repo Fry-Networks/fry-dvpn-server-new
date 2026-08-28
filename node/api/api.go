@@ -40,6 +40,7 @@ type Server struct {
 	ipPool          *ippool.IPPool
 	challenges      map[string]Challenge
 	sessions        map[string]SessionData
+	usedPayments    map[string]bool // payment txid -> already spent on a session (anti-replay)
 	nodeID          string
 	nodeWGPubkey    string
 	nodeEndpoint    string
@@ -112,6 +113,7 @@ func New(
 		ipPool:              pool,
 		challenges:          make(map[string]Challenge),
 		sessions:            make(map[string]SessionData),
+		usedPayments:        make(map[string]bool),
 		nodeID:              nodeID,
 		nodeWGPubkey:        nodeWGPubkey,
 		nodeEndpoint:        nodeEndpoint,
@@ -123,6 +125,19 @@ func New(
 		rateBurst:           20,  // allow short bursts
 		rateRefill:          0.5, // 1 token / 2s ≈ 30/min steady state
 	}
+}
+
+// paymentAlreadyUsed reports whether txnID has already funded a session.
+// Callers holding s.mu (e.g. HandleSession) get race-free access for free;
+// this mirrors how s.challenges/s.sessions are already accessed in this file.
+func (s *Server) paymentAlreadyUsed(txnID string) bool {
+	return s.usedPayments[txnID]
+}
+
+// markPaymentUsed records that txnID has funded a session, so it cannot be
+// replayed to mint another one. Same locking contract as paymentAlreadyUsed.
+func (s *Server) markPaymentUsed(txnID string) {
+	s.usedPayments[txnID] = true
 }
 
 // Health check endpoint
@@ -278,6 +293,15 @@ func (s *Server) HandleSession(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	// Reject replayed payments: a confirmed on-chain payment is otherwise
+	// reusable verbatim by anyone who observes the txid (it stays valid and
+	// confirmed for as long as VerifyPayment's lookup window covers), which
+	// would let one payment mint sessions repeatedly instead of just once.
+	if s.paymentAlreadyUsed(req.PaymentTxID) {
+		http.Error(w, "payment already used for a session", http.StatusPaymentRequired)
+		return
+	}
+
 	// Check per-wallet session cap
 	walletSessions := 0
 	for _, session := range s.sessions {
@@ -323,6 +347,11 @@ func (s *Server) HandleSession(w http.ResponseWriter, r *http.Request) {
 	}
 
 	s.sessions[sessionID] = sessionData
+
+	// Commit the payment as spent only now that the session actually exists,
+	// so a transient failure earlier (e.g. AddPeer) doesn't burn a valid
+	// payment without granting a session.
+	s.markPaymentUsed(req.PaymentTxID)
 
 	// Remove challenge
 	delete(s.challenges, req.WalletAddress)

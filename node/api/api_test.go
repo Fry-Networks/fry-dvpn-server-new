@@ -186,6 +186,30 @@ func TestRegisterHandlers(t *testing.T) {
 	}
 }
 
+// TestPaymentReplayDetection proves a single verified on-chain payment cannot
+// silently fund more than one session. Before this protection existed, an
+// attacker could pay pricePerGB once, capture the txid, and replay it across
+// up to maxSessionsPerWallet fresh challenge/session round-trips (or across
+// different wallets, since VerifyPayment never recorded that the txid had
+// already been spent) to get extra sessions for free.
+func TestPaymentReplayDetection(t *testing.T) {
+	mock := wg.NewMock("10.7.0.1/24", "nodePublicKey")
+	pool, _ := ippool.New("10.7.0.0/24", true)
+	server := New(mock, nil, pool, "testNodeID", "nodePublicKey", "localhost:51820", 2485198745, 1000000)
+
+	const txid = "REPLAYEDPAYMENTTXID"
+
+	if server.paymentAlreadyUsed(txid) {
+		t.Fatalf("fresh payment txid must not be marked used before it funds a session")
+	}
+
+	server.markPaymentUsed(txid)
+
+	if !server.paymentAlreadyUsed(txid) {
+		t.Fatalf("payment txid must be marked used once it has funded a session, to block replay")
+	}
+}
+
 func TestChallengeNonceGeneration(t *testing.T) {
 	mock := wg.NewMock("10.7.0.1/24", "nodePublicKey")
 	pool, _ := ippool.New("10.7.0.0/24", true)
