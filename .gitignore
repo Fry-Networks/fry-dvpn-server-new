@@ -51,3 +51,22 @@ target/
 Thumbs.db
 .idea/
 .vscode/
+
+# open-source hygiene
+*.pem
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa
+id_ed25519
+.npmrc
+.netrc
+*.tfstate
+*.tfstate.*
+kubeconfig
+serviceAccount*.json
+secrets.json
+*.sqlite
+*.sqlite3
+*.db
